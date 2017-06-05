@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface DevicesViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+- (void)udpData:(Byte *)data;
 @end
 
